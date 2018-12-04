@@ -1,3 +1,6 @@
-.jumbotron {
-    font-family: var(--font-one);
+.jumbotron { 
+    width: 87%; 
+    margin-left: 6%; 
+    margin-top: 2%; 
+    padding: 2%;
 }
