@@ -1,7 +1,7 @@
 :root {
     --black: #000000;
-    --white: #999999;
-    --blue: cornflowerblue;
+    --white: #FFFFFF;
+    --blue: rgb(113, 170, 221);
     --red: darkred;
     --font-one: 'Poppins', sans-serif;
     --font-one: 'Raleway', sans-serif;

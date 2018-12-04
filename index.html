@@ -12,61 +12,86 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">Stephen Center</a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Skip to a specific section
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#about">About</a>
                 <a class="dropdown-item" href="#project">Projects</a>
                 <a class="dropdown-item" href="#contact">Contact</a>
                 <a class="dropdown-item" href="#project">Projects</a>
-                <a class="dropdown-item" href="#about">About</a>
-                <a class="dropdown-item" href="#project">Projects</a>
-                
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
     <!-- Header -->
-    <h1>This is working</h1>
+    <div class="jumbotron" style="width: 95%; margin-left: 2.5%; margin-top: 2.5%">
+            <h1 class="display-4">Stephen Center</h1>
+            <p class="lead">Your next software developer.</p>
+            <hr class="my-4">
+            <p>More stuff</p>
+            <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
+          </div>
 
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+        <h2>ABOUT STEPHEN CENTER</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/whoami_630x350.png/" alt="Who am I?">
+                <div class="card-body">
+                    <h5 class="card-title">Who am I?</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/skills_630x350.png/" alt="Skills">
+                <div class="card-body">
+                    <h5 class="card-title">Skills</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            
+            
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/education_630x350.png" alt="Education">
+                <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Projects -->
-    <section id="project"></section>
+    <section id="project">
+        <h2>My Projects</h2>
+
+    </section>
 
     <!-- Contact -->
-    <section id="contact"></section>
+    <section id="contact">
+        <h2>Contact Info</h2>
+
+    </section>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <span>&copy; 2018 - Stephen Center</span>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
