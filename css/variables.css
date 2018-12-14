@@ -1,9 +1,7 @@
 :root {
     --black: #000000;
     --white: #FFFFFF;
-    --blue: rgb(0, 128, 255);
+    --blue: rgba(0, 128, 255, 1);
     --red: darkred;
-    --font-one: 'Raleway', sans-serif;
-    --font-two: 'Rubik', sans-serif;
-    --font-three: 'Nunito', sans-serif;
+    --font-one: 'Nunito', sans-serif;
 }
